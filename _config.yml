@@ -1,0 +1,9 @@
+name: Mike Croft
+markdown: redcarpet
+pygments: true
+defaults:
+    scope:
+        path: ""
+    values:
+        layout: "post"
+        author: "Mike Croft"
