@@ -18,7 +18,7 @@ Since C2B2 is a staunchly independent outfit, it didn't really make sense to be 
 
 So, on the 6th April 2016, [Payara Services Ltd.](http://www.payara.fish/support) was created and I officially became a Payara employee.
 
-## Work
+# Work
 I currently work for [Payara](https://twitter.com/Payara_Fish) and am very privileged to work with some incredibly talented people. Some of them have an online presence:
 
  * [Mert Çalışkan](https://twitter.com/mertcal)
@@ -28,5 +28,5 @@ I currently work for [Payara](https://twitter.com/Payara_Fish) and am very privi
 
 I'm part of the support and services team in Payara so I spend most of my time working directly with customers, remote or on-site, handling support tickets for customers with a support contract or any other ad-hoc work for customers who want to buy consultancy time.
 
-## Personal
+# Personal
 I like sport that I can participate in more than sport that I can watch (with the exception of F1 and sometimes rugby). Pretty much any sport where I can compete against myself appeals to me; running, climbing, snowboarding plus lots of other things I haven't got round to yet. (I'll need to buy a Kayak first).
