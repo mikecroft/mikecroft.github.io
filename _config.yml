@@ -1,6 +1,6 @@
 name: Mike Croft
 markdown: kramdown
-pygments: true
+highlighter: rouge
 defaults:
     scope:
         path: ""
