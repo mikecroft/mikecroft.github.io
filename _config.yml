@@ -1,5 +1,5 @@
 name: Mike Croft
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 defaults:
     scope:
