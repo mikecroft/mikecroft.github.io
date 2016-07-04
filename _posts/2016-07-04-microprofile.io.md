@@ -20,7 +20,7 @@ A really key aim of the initiative - one that is (in my mind) the most attractiv
 
 I love the fact that British people are known for drinking tea because of the accessibility of it and broad acceptance of it in all social circles:
 
-> *"Aristocrats, and the royal family, drink tea; working-class people drink tea...it's a great symbol of social levelling"*
+> *"Aristocrats, and the royal family, drink tea; working-class people drink tea...it's a great symbol of social levelling"*  
 > *[The Guardian](https://www.theguardian.com/news/2005/jan/26/food.britishidentity)*
 
 This is how I've always seen Java. Being founded on open source with an open standards body has meant that not only is Java trusted worldwide by such technical "aristocrats" as financial institutions, it's also the first programming language I was taught at University and a language traditionally used by people who could not afford Windows licenses for the .NET Framework. (*Though this may change with Microsoft's recend push towards openness*)
