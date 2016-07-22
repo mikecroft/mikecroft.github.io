@@ -1,6 +1,7 @@
 name: Mike Croft
 markdown: kramdown
 highlighter: rouge
+gems: [jekyll-paginate]
 defaults:
     scope:
         path: ""
