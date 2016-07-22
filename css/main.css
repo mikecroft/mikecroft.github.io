@@ -69,7 +69,9 @@ a:visited { color: #a0a; }
   text-align: justify;
   max-width: 50em;
   min-width: 30em;
-  margin: 2em 1em 2em 1em;
+  margin: 2em  auto 2em;
+  padding-right: 1em;
+  padding-left: 1em;
   line-height: 1.5em;
 }
 
