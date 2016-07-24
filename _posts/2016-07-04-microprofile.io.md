@@ -1,7 +1,7 @@
 ---
 layout: post
 title: microprofile.io
-
+comments: true
 ---
 
 
