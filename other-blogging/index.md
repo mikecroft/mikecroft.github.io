@@ -1,6 +1,6 @@
 ---
 layout: default
-title: payara blogs
+title: other blogging
 ---
 
 
