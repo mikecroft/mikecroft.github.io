@@ -20,12 +20,26 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 110%;
 }
 
-h1 { margin-bottom: 1em; }
-h1 { padding-top: 1.1em; }
-p { margin: 1em 0; }
+h1 { 
+ margin-bottom: 0.5em;
+ padding-top: 1.5em;
+}
+
+h2 {
+  color: #a00;
+  font-weight: 100;
+}
+
+h2#post-title {
+  color: #000;
+  font-weight: 800;
+  margin: 0.4em 0;
+}
+
+p { margin: 0 0 1.5em 0; }
 
 a         { color: #58e; text-decoration: none; }
 a:visited { color: #888; }
@@ -52,8 +66,9 @@ a:hover   { color: #000; }
 }
 
 .post-title {
-  margin-bottom: -0.8em;
+  margin-bottom: -0.2em;
   margin-top: 2em;
+  color: #a00;
 }
 
 
@@ -134,8 +149,9 @@ a:hover   { color: #000; }
 }
 
 ul, ol {
-  margin-left: 1.5em;
+  margin-left: 3em;
   margin-right: 1.5em;
+  margin-bottom: 1em;
 }
 
 /*****************************************************************************/
