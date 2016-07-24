@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux WPA WiFi configuration
+comments: true
 tags:
   - i3
   - linux

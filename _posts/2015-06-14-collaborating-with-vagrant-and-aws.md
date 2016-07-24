@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Collaborating with Vagrant and AWS
+comments: true
 tags: 
  - Vagrant
  - AWS
