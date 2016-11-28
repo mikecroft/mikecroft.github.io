@@ -10,6 +10,13 @@ These are all listed in reverse order, with the most recent first.
 
 # 2016
 
+## Devoxx, Belgium
+*[Introducing the MicroProfile](https://cfp.devoxx.be/2016/talk/LYF-6510/Introducing_the_MicroProfile)*
+A group presentation from the vendors involved in the MicroProfile effort. [David Blevins](https://twitter.com/dblevins) lead the presentation and introduced a collaborative demo of the [MicroProfile Conference demo app](https://github.com/microprofile/microprofile-conference). Other speakers included [Heiko Braun (Red Hat)https://twitter.com/heiko_braun]() [Alisdair Nottingham (IBM)](https://twitter.com/nottycode) and [Andy Gumbrecht (Tomitribe)](https://twitter.com/andygeede). You can watch [the video of the talk on YouTube](https://www.youtube.com/watch?v=iG-XvoIfKtg)
+
+*[A MicroProfile for MicroServices](https://cfp.devoxx.be/2016/talk/OXS-1955/A_MicroProfile_for_Micro_Services)*
+When I submitted this to the CFP, it wasn't clear exactly where we would be with the MicroProfile since it had only just begun. It turned out that 15 minutes wasn't anywhere near enough to cover everything, so it was very fortunate that I could join with others for the hour long presentation above. If you only have a few minutes, though, this is a decent summary of where things are at the end of 2016, though I would recommend watching David's conclusion to the above presentation as well. [The video for this presentation is on YouTube too.](https://www.youtube.com/watch?v=dyK6BcOh8N4)
+
 ## JavaOne, San Francisco
 *[Cloud-Native Java EE [TUT3633]](https://oracle.rainfocus.com/scripts/catalog/oow16.jsp?event=javaone&search=TUT3633&search.event=javaone)*  
 Despite sharing the name with a talk I've already done, this is a new talk. It builds on the concepts I've already presented but, as a tutorial, will be much more demo-heavy.
