@@ -21,6 +21,7 @@ Since then...
 
 Where are we now?
 
+* Settled into Eclipse Foundation, familiar with processes
 * 1.1 is delayed but imminent
 * 1.2 and 2.0 are planned
 * Several of our own specs are in progress, some complete or near complete
@@ -31,4 +32,7 @@ Where are we heading?
 * Pace is increasing
 * More clarity on how to get things done
 * A sandbox approach vs proposal approach
+* A fresh new logo/branding
+* An expanded Website
 * A strong 2018!
+* Lots of conferences!
