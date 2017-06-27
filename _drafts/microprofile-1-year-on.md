@@ -18,6 +18,7 @@ Since then...
 * New members joined (Hazelcast, Fujitsu, KumuluzEE, Smartbear, OpenTracing)
 * LOTS of discussion
 * LOTS of work
+* [Hard work is not always obvious](https://twitter.com/katharineCodes/status/879302449152098304)
 
 Where are we now?
 
