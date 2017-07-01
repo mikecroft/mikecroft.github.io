@@ -45,7 +45,7 @@ In spite of the delays from our move to the Eclipse Foundation (and, really, jus
 
 Our [Eclipse Project Overview](https://projects.eclipse.org/projects/technology.microprofile) shows publicly our target dates for every release. Our plan is to time-box these releases so we will release on (or very near) those dates with whatever specifications have been finalised at the deadline. MicroProfile 1.1 has been slightly delayed from its initial target date since there was so much intellectual property to review and make sure we were legally clear to release.
 
-Eclipse MicroProfile is also much stronger than it was a year ago. There was an expected large buzz at the beginning of the project as blogs were written and waves were made through the TwitterSphere but since then, we've been very pleased to welcome new corporate members of Eclipse Microprofile, proudly shown off on the front page of microprofile.io:
+Eclipse MicroProfile is also much stronger than it was a year ago. There was an expected large buzz at the beginning of the project as blogs were written and waves were made through the TwitterSphere but since then, we've been very pleased to welcome new corporate members of Eclipse Microprofile, proudly shown off on [the front page of microprofile.io](http://microprofile.io/):
 
 * Hazelcast
 * Fujitsu
