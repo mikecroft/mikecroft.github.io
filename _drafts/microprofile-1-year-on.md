@@ -6,46 +6,44 @@ tags:
  - MicroProfile
 ---
 
-As I write this blog post, on Tuesday 27th June 2017, I'm looking through memories of where I was on this day in 2016: San Francisco.
+As I write this blog post, on Tuesday 27th June 2017, I'm looking through memories of where I was on this day in 2016: participating in the keynote speech at Red Hat's DevNation conference in San Francisco.
 
-It was a Monday and, still reeling from the shock of a certain small vote, I joined Tomitribe's Theresa Nguyen, IBM's Alasdair Nottingham, the London Java Community's Martijn Verburg and Red Hat's Mark Little, as we announced a joint venture in MicroProfile.io.
+It was a Monday and, still reeling from the shock of [a certain small vote back home in the UK](https://www.theguardian.com/politics/2016/jun/24/britain-votes-for-brexit-eu-referendum-david-cameron), I joined Tomitribe's Theresa Nguyen, IBM's Alasdair Nottingham, the London Java Community's Martijn Verburg and Red Hat's Mark Little, as we announced a joint venture in MicroProfile.io.
 
 In the last year, we've come a long way as a community. Here are a few highlights...
 
 ## How did we get here?
-By JavaOne in September of 2016 there were implementations of MicroProfile from Red Hat, IBM, Payara and Tomitribe, and I was even able to use Payara's Microprofile edition in my JavaOne tutorial! By Devoxx Belgium in November, I was able to stand on stage with Alasdair, Heiko, David and Andy to demonstrate our collaborative conference app; a separate microservice written by each vendor plus a simple frontend to show it all off.
+By JavaOne in September of 2016 there were implementations of MicroProfile from Red Hat, IBM, Payara and Tomitribe, and I was even able to use Payara's Microprofile edition in my JavaOne tutorial! By Devoxx Belgium in November, [I was able to stand on stage with Alasdair, Heiko, David and Andy](https://www.youtube.com/watch?v=iG-XvoIfKtg) to demonstrate our collaborative conference app; a separate microservice written by each vendor plus a simple frontend to show it all off.
 
 It was around that time that work to bring the MicroProfile under the Eclipse Foundation began. From a very early stage, it was clear that a foundation would be needed to "own" the IP so that any community contributions would be protected. Eclipse was chosen and, in the months that followed around Christmas, a huge amount of behind-the-scenes work went on to make sure we were fully compliant and understoood everything that we needed to do as Eclipse Foundation members.
 
-Since then...
+At that point, MicroProfile welcomed new members in the form of our Eclipse mentors, who have given a huge amount of their time to help smooth our journey; without their help, we would certainly not be where we are today!
 
-* MP 1.0 announced at JavaOne
-* Joined Eclipse, lots of growing pains
-* New specs created
-* New members joined (Hazelcast, Fujitsu, KumuluzEE, Smartbear, OpenTracing)
-* LOTS of discussion
-* LOTS of work
-* [Hard work is not always obvious](https://twitter.com/katharineCodes/status/879302449152098304)
+Since then, there have been new specs created, ***lots*** of discussion and ***lots*** of work! It would be easy to miss everything that's gone on in our [Google Group forum](https://groups.google.com/forum/#!forum/microprofile), our [regular (pulic) calls](https://twitter.com/MicroProfileIO/status/879582237469007872), and all the efforts of individual specifications since everything seems to move at such a fast pace! It's important to remember that [hard work is not always obvious](https://twitter.com/katharineCodes/status/879302449152098304); so let's remedy that with an overview of what things have currently been acheived, and what things are still in progress.
 
 
 ## Where are we now?
-Due in no small part to all the efforts to move to the Eclipse Foundation, there were inevitable delays to work on the next version of MicroProfile. Fortunately, the community was very dedicated and work on new specs is now progressing at a very healthy pace!
+Due in no small part to the growing pains of bringing together a new community of developers, all while fitting in to a new Foundation, there were inevitable delays in the work on the next version of MicroProfile. Fortunately, however, our Eclipse mentors and the MicroProfile community were very dedicated and work on new specs is now progressing at a very healthy pace!
 
-The current list of proposals being actively worked on after a year is:
+A fantastic benefit of being an Eclipse project (aside from all the assitance and advice from our experienced mentors) is that we now have an Eclipse home for MicroProfile, [which shows very clearly all the contributions and activity](https://projects.eclipse.org/projects/technology.microprofile/who) happpening in our ever-increasing number of repositories!
 
-* Config
-* Fault Tolerance
-* JWT Role Based Access Control
-* Health Checks
-* Metrics/Telemetry
+The [current list of proposals](http://microprofile.io/projects) being actively worked on after a year includes:
+
+* [Config](http://microprofile.io/project/eclipse/microprofile-config)
+* [Fault Tolerance](http://microprofile.io/project/eclipse/microprofile-fault-tolerance)
+* [JWT Role Based Access Control](http://microprofile.io/project/eclipse/microprofile-jwt-auth)
+* [Health Checks](http://microprofile.io/project/eclipse/microprofile-health)
+* [Metrics/Telemetry](https://github.com/eclipse/microprofile-metrics)
 * Standardised properties
 
 There are even a couple of existing APIs being reviewed for inclusion:
 
 * Distributed Tracing (based on [opentracing.io](http://opentracing.io/))
-* Standardised REST API documentation (based on OpenAPI/Swagger)
+* Standardised REST API documentation (based on [OpenAPI](https://www.openapis.org/)/Swagger)
 
-In spite of the delays caused by moving to the Eclipse Foundation (and, really, just learning to work together efficiently) we are now in a position to release MicroProfile 1.1, which includes version 1.0 of the Config API, once final IP checks are complete. We also have dates and plans for versions 1.2 and 2.0, though the specs to be included in those versions is yet to be finalised. (Join the discussion!)
+In spite of the delays from our move to the Eclipse Foundation (and, really, just learning to work together efficiently) we are now in a position to release MicroProfile 1.1, which includes version 1.0 of the Config API, once final IP checks are complete. We also have dates and plans for versions 1.2 and 2.0, though the specs to be included in those versions is yet to be finalised. ([Join the discussion!](https://groups.google.com/forum/#!forum/microprofile))
+
+Our [Eclipse Project Overview](https://projects.eclipse.org/projects/technology.microprofile) shows publicly our target dates for every release. Our plan is to time-box these releases so we will release on (or very near) those dates with whatever specifications have been finalised at the deadline. MicroProfile 1.1 has been slightly delayed from its initial target date since there was so much intellectual property to review and make sure we were legally clear to release.
 
 Eclipse MicroProfile is also much stronger than it was a year ago. There was an expected large buzz at the beginning of the project as blogs were written and waves were made through the TwitterSphere but since then, we've been very pleased to welcome new corporate members of Eclipse Microprofile, proudly shown off on the front page of microprofile.io:
 
@@ -63,10 +61,6 @@ The specifications being developed specifically for MicroProfile are progressing
 
 The technical side of the project is not the only side that has been putting in a lot of effort. Marketing specialists from all originally participating companies are coming together to discuss branding and a revamped logo for the project that can be truly community-driven. Tomitribe, who have generously provided hosting for the MicroProfile website over the past year, are putting a lot of effort into improving the site and helping to document the current projects.
 
-* Pace is increasing
-* More clarity on how to get things done
-* A sandbox approach vs proposal approach
-* A fresh new logo/branding
-* An expanded Website
-* A strong 2018!
-* Lots of conferences!
+Thanks to everything that's gone on before, we can see that the pace of development is increasing, there's more clarity on how to get things done, and [how someone new to the project can contribute](https://wiki.eclipse.org/MicroProfile). We've changed from a "[proposal approach](https://github.com/eclipse/microprofile-evolution-process)", which involved lots of discussion before work began, to a "[sandbox approach](https://wiki.eclipse.org/MicroProfile/FeatureInit)" which encourages people to get stuck in and write some code to demonstrate their proposal.
+
+As MicroProfile 1.1 is gearing up for release, the community is looking forward to a strong 2017 and a stronger 2018!
