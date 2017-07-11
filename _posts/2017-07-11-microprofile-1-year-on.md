@@ -59,7 +59,7 @@ All of the work that's been done and all of the activity that's still continuing
 ## Where are we heading?
 Anecdotally, it seems that the pace of change is picking up. The MicroProfile effort has been quite grand in ambition right from the start, with many contributors across the world with differing amounts of other commitments. Bringing together such a diverse range of people has been tricky, at times, but the benefits of such an approach are really coming to fruition.
 
-The specifications being developed specifically for MicroProfile are progressing more quickly now that many initial questions have been answered for other projects so, although Config 1.0 was the only additional spec to make it to MicroProfile 1.1, I am quietly confident that Fault Tolerance, Health Checks and JWT security will be done and usable shortly afterwards.
+The specifications being developed for MicroProfile are progressing more quickly now that initial questions have been answered for other projects. Even though Config 1.0 was the only additional spec to make it to MicroProfile 1.1, this increased pace makes me quietly confident that Fault Tolerance, Health Checks and JWT security will be done and usable shortly afterwards.
 
 [<img width="40%" height="40%" align="left" src="{{ site.url }}/assets/mp-voting.png">](https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform)
 
