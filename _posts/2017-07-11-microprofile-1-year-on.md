@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The MicroProfile Turns 1
+title: The MicroProfile Turns One
 comments: true
 tags: 
  - MicroProfile
