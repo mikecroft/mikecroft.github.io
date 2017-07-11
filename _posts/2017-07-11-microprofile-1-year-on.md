@@ -69,6 +69,8 @@ The technical side of the project is not the only side that has been putting in 
 
 #### [Vote on your favourite logo by visiting the Google Form!](https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform)
 
+<br />
+
 Tomitribe, who have generously provided hosting for the MicroProfile website over the past year, are putting a lot of effort into improving the site and helping to document the current projects.
 
 Thanks to everything that's gone on before, we can see that the pace of development is increasing, there's more clarity on how to get things done, and [how someone new to the project can contribute](https://wiki.eclipse.org/MicroProfile). We've changed from a "[proposal approach](https://github.com/eclipse/microprofile-evolution-process)", which involved lots of discussion before work began, to a "[sandbox approach](https://wiki.eclipse.org/MicroProfile/FeatureInit)" which encourages people to get stuck in and write some code to demonstrate their proposal.
