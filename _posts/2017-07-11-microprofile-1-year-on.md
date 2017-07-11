@@ -8,7 +8,7 @@ tags:
 
 As I write this blog post, on Tuesday 27th June 2017, I'm looking through memories of where I was on this day in 2016: participating in the keynote speech at Red Hat's DevNation conference in San Francisco.
 
-<img width="70%" height="70%" align="center" src="{{ site.url }}/assets/mp-announcement.jpg">
+<p style="text-align:center"><img width="70%" height="70%" src="{{ site.url }}/assets/mp-announcement.jpg"></p>
 
 It was a Monday and, still reeling from the shock of [a certain small vote back home in the UK](https://www.theguardian.com/politics/2016/jun/24/britain-votes-for-brexit-eu-referendum-david-cameron), I joined Tomitribe's Theresa Nguyen, IBM's Alasdair Nottingham, the London Java Community's Martijn Verburg and Red Hat's Mark Little, as we announced a joint venture in MicroProfile.io.
 
