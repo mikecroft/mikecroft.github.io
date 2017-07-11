@@ -21,7 +21,7 @@ It was around that time that work to bring the MicroProfile under the Eclipse Fo
 
 At that point, MicroProfile welcomed new members in the form of our Eclipse mentors, who have given a huge amount of their time to help smooth our journey; without their help, we would certainly not be where we are today!
 
-Since then, there have been new specs created, ***lots*** of discussion and ***lots*** of work! It would be easy to miss everything that's gone on in our [Google Group forum](https://groups.google.com/forum/#!forum/microprofile), our [regular (pulic) calls](https://twitter.com/MicroProfileIO/status/879582237469007872), and all the efforts of individual specifications since everything seems to move at such a fast pace! It's important to remember that [hard work is not always obvious](https://twitter.com/katharineCodes/status/879302449152098304); so let's remedy that with an overview of what things have currently been acheived, and what things are still in progress.
+Since then, there have been new specs created, ***lots*** of discussion and ***lots*** of work! It would be easy to miss everything that's gone on in our [Google Group forum](https://groups.google.com/forum/#!forum/microprofile), our [regular (public) calls](https://twitter.com/MicroProfileIO/status/879582237469007872), and all the efforts of individual specifications since everything seems to move at such a fast pace! It's important to remember that [hard work is not always obvious](https://twitter.com/katharineCodes/status/879302449152098304); so let's remedy that with an overview of what things have currently been acheived, and what things are still in progress.
 
 
 ## Where are we now?
