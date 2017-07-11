@@ -65,8 +65,6 @@ The specifications being developed specifically for MicroProfile are progressing
 
 The technical side of the project is not the only side that has been putting in a lot of effort. Marketing specialists from all participating community members are [coming together to discuss branding and a revamped logo](https://groups.google.com/forum/#!topic/microprofile/diTj3_mx1bg) for the project that can be truly community-driven. To be a true community effort, there needs to be a consensus from all community members, so everyone who participates in any way is encouraged to make their voice heard and vote on our new logo choice!
 
-<br />
-
 <h3 style="text-align:center">
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform">Vote on your favourite logo by visiting the Google Form!</a>
 </h3>
