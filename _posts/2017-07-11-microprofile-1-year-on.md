@@ -67,9 +67,9 @@ The technical side of the project is not the only side that has been putting in 
 
 <br />
 
-<p style="text-align:center">
-### [Vote on your favourite logo by visiting the Google Form!](https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform)
-</p>
+<h3 style="text-align:center">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform">Vote on your favourite logo by visiting the Google Form!</a>
+</h3>
 
 <br />
 
