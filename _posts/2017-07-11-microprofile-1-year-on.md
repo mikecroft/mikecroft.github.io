@@ -61,12 +61,12 @@ Anecdotally, it seems that the pace of change is picking up. The MicroProfile ef
 
 The specifications being developed for MicroProfile are progressing more quickly now that initial questions have been answered for other projects. Even though Config 1.0 was the only additional spec to make it to MicroProfile 1.1, this increased pace makes me quietly confident that Fault Tolerance, Health Checks and JWT security will be done and usable shortly afterwards.
 
-[<img width="40%" height="40%" align="left" src="{{ site.url }}/assets/mp-voting.png">](https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform)
+[<img width="40%" height="40%" align="left" src="{{ site.url }}/assets/mp-voting.png">](https://goo.gl/kcquD8)
 
 The technical side of the project is not the only side that has been putting in a lot of effort. Marketing specialists from all participating community members are [coming together to discuss branding and a revamped logo](https://groups.google.com/forum/#!topic/microprofile/diTj3_mx1bg) for the project that can be truly community-driven. To be a true community effort, there needs to be a consensus from all community members, so everyone who participates in any way is encouraged to make their voice heard and vote on our new logo choice!
 
 <h3 style="text-align:center">
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8_1rik03fepzs01_0RYGobT4fsnJIXMDAwnV0nZB1UbEng/viewform">Vote on your favourite logo by visiting the Google Form!</a>
+<a href="https://goo.gl/kcquD8">Vote on your favourite logo by visiting the Google Form!</a>
 </h3>
 
 <br />
