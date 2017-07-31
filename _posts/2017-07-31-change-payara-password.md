@@ -25,18 +25,17 @@ There's a nice example of this in [a set of scripts I created to quickly set up 
 
 {% highlight bash %}
 enableSecureAdmin() {
+    # Set admin password
+    docker exec das curl  -X POST \
+        -H 'X-Requested-By: payara' \
+        -H "Accept: application/json" \
+        -d id=admin \
+        -d AS_ADMIN_PASSWORD= \
+        -d AS_ADMIN_NEWPASSWORD=$PASSWORD \
+        http://localhost:4848/management/domain/change-admin-password
 
-# Set admin password
-docker exec das curl  -X POST \
-    -H 'X-Requested-By: payara' \
-    -H "Accept: application/json" \
-    -d id=admin \
-    -d AS_ADMIN_PASSWORD= \
-    -d AS_ADMIN_NEWPASSWORD=$PASSWORD \
-    http://localhost:4848/management/domain/change-admin-password
-    
-docker exec das $RASADMIN enable-secure-admin
-docker exec das $ASADMIN restart-domain domain1
+    docker exec das $RASADMIN enable-secure-admin
+    docker exec das $ASADMIN restart-domain domain1
 }
 {% endhighlight %}
 &nbsp;  
