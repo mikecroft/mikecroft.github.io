@@ -39,7 +39,7 @@ docker exec das $RASADMIN enable-secure-admin
 docker exec das $ASADMIN restart-domain domain1
 }
 {% endhighlight %}
-
+&nbsp;  
 The first thing to get out of the way here is the Docker-specific parts. To run any bash command in a Docker container, you can simply prefix the command with `docker exec ${CONTAINER_NAME}` and the command will be passed to the container and run from there.
 
 So, with that in mind, the main thing to be concerned about here is the `curl` command. I'm sending an HTTP `POST` request and adding three bits of data in the `POST` form:
@@ -53,7 +53,45 @@ I may write a follow-up post to go into more detail about the REST management in
 In the example above, there is no value for `AS_ADMIN_PASSWORD` since the admin user, as we've said, does not have a password by default. After successfully running the command, you should get a JSON response similar to the following:
 
 {% highlight javascript %}
-{"message":"","command":"change-admin-password AdminCommand","exit_code":"SUCCESS","extraProperties":{"methods":[{"name":"GET"},{"messageParameters":{"id":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"},"newpassword":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"},"password":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"}},"name":"POST"}],"commandLog":["change-admin-password --AS_ADMIN_PASSWORD  --AS_ADMIN_NEWPASSWORD admin --DEFAULT admin --password  --newpassword admin --username admin"]}}
+{
+  "message": "",
+  "command": "change-admin-password AdminCommand",
+  "exit_code": "SUCCESS",
+  "extraProperties": {
+    "methods": [
+      {
+        "name": "GET"
+      },
+      {
+        "messageParameters": {
+          "id": {
+            "acceptableValues": "",
+            "defaultValue": "",
+            "optional": "false",
+            "type": "string"
+          },
+          "newpassword": {
+            "acceptableValues": "",
+            "defaultValue": "",
+            "optional": "false",
+            "type": "string"
+          },
+          "password": {
+            "acceptableValues": "",
+            "defaultValue": "",
+            "optional": "false",
+            "type": "string"
+          }
+        },
+        "name": "POST"
+      }
+    ],
+    "commandLog": [
+      "change-admin-password --AS_ADMIN_PASSWORD  --AS_ADMIN_NEWPASSWORD admin
+      --DEFAULT admin --password  --newpassword admin --username admin"
+    ]
+  }
+}
 {% endhighlight %}
 
 Following the `curl` to change the password, I complete the process by enabling secure admin and restarting the domain to apply the changes.
@@ -64,7 +102,7 @@ More eagle-eyed readers will have already spotted the downside to using the REST
 This is where [my original answer to the StackOverflow question](https://stackoverflow.com/questions/42773521/secure-admin-must-be-enabled-to-access-the-das-remotely-acess-glassfish-admin/42774130#42774130) comes in. I'll reproduce the answer below. Be aware that the Dockerfile I mention in the answer is [the official Payara Server Dockerfile from the 171 release](https://github.com/payara/docker-payaraserver-full/blob/171.1/Dockerfile) - from release 172, we've updated the Dockerfile to make use of a couple of other features.
 
 ---
-
+&nbsp;  
 To summarise, this method creates 2 files: a `tmpfile` which contains the default (empty) password and the desired new password, and a `pwdfile` which contains just the newly changed file.
 
 If the contents of the `tmpfile` are:
@@ -109,13 +147,13 @@ RUN \
 # cleanup
 RUN rm /opt/tmpfile
 {% endhighlight %}
-
+&nbsp;  
 ---
 
 This answer is making use of options for the `asadmin` command itself. If you're already a GlassFish or Payara Server user, you are probably used to adding options to various `asadmin` subcommands, but you may not be as used to specifying options to `asadmin` itself. If that's the case, do take note of the fact that these options must come ***before*** the subcommand you want to use, and any options for the subcommand will come ***after*** the subcommand.
 
 That's it! Payara Server is really quite flexible. There's usually at least one way to achieve your goal, often several ways. For any configuration which does not have a dedicated `asadmin` subcommand, the `set` subcommand can be used and, if you really don't know what's available, you can use the Payara Server `asadmin recorder` feature in the admin console which will write all the right commands to a file for you to replay at a later date.
-
+&nbsp;  
 ---
-
+&nbsp;  
 *[This StackOverflow answer](https://stackoverflow.com/a/42774130/212224) by [Mike Croft](https://stackoverflow.com/users/212224/mike) is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). This derivative work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by Mike Croft*
