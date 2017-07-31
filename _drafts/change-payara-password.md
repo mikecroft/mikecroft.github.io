@@ -114,4 +114,4 @@ That's it! Payara Server is really quite flexible. There's usually at least one 
 
 ---
 
-[This StackOverflow answer](https://stackoverflow.com/a/42774130/212224) by [Mike Croft](https://stackoverflow.com/users/212224/mike) is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). This derivative work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by Mike Croft
+*[This StackOverflow answer](https://stackoverflow.com/a/42774130/212224) by [Mike Croft](https://stackoverflow.com/users/212224/mike) is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). This derivative work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by Mike Croft*
