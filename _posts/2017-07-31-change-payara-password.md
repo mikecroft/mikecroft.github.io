@@ -150,6 +150,7 @@ RUN rm /opt/tmpfile
 &nbsp;  
 
 ---
+&nbsp;  
 
 This answer is making use of options for the `asadmin` command itself. If you're already a GlassFish or Payara Server user, you are probably used to adding options to various `asadmin` subcommands, but you may not be as used to specifying options to `asadmin` itself. If that's the case, do take note of the fact that these options must come ***before*** the subcommand you want to use, and any options for the subcommand will come ***after*** the subcommand.
 
