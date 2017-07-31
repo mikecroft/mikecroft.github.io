@@ -50,7 +50,11 @@ So, with that in mind, the main thing to be concerned about here is the `curl` c
 
 I may write a follow-up post to go into more detail about the REST management interface at a later date but, for now, it should be enough to say simply that the `id` should be the id of the user whose password we want to change (here I'm changing the default `admin` user's password), `AS_ADMIN_PASSWORD` should equal the current password, and `AS_ADMIN_NEWPASSWORD` should equal what we want to change the password to.
 
-In the example above, there is no value for `AS_ADMIN_PASSWORD` since the admin user, as we've said, does not have a password by default.
+In the example above, there is no value for `AS_ADMIN_PASSWORD` since the admin user, as we've said, does not have a password by default. After successfully running the command, you should get a JSON response similar to the following:
+
+{% highlight javascript %}
+{"message":"","command":"change-admin-password AdminCommand","exit_code":"SUCCESS","extraProperties":{"methods":[{"name":"GET"},{"messageParameters":{"id":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"},"newpassword":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"},"password":{"acceptableValues":"","defaultValue":"","optional":"false","type":"string"}},"name":"POST"}],"commandLog":["change-admin-password --AS_ADMIN_PASSWORD  --AS_ADMIN_NEWPASSWORD admin --DEFAULT admin --password  --newpassword admin --username admin"]}}
+{% endhighlight %}
 
 Following the `curl` to change the password, I complete the process by enabling secure admin and restarting the domain to apply the changes.
 
