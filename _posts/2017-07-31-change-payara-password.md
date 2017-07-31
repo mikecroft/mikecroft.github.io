@@ -111,13 +111,13 @@ If the contents of the `tmpfile` are:
 AS_ADMIN_PASSWORD=
 AS_ADMIN_NEWPASSWORD=MyNewPassword
 ```
-
+&nbsp;  
 Then the contents of `pwdfile` should be:
 
 ```
 AS_ADMIN_PASSWORD=MyNewPassword
 ```
-
+&nbsp;  
 to change the password using asadmin, the first file must be used with the `change-admin-password` command, and the second with all future commands.
 
 In docker terms, this looks like this (taken directly from the dockerfile linked above):
