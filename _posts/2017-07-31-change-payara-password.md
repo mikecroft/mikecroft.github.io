@@ -151,7 +151,6 @@ RUN rm /opt/tmpfile
 
 ---
 &nbsp;  
-
 This answer is making use of options for the `asadmin` command itself. If you're already a GlassFish or Payara Server user, you are probably used to adding options to various `asadmin` subcommands, but you may not be as used to specifying options to `asadmin` itself. If that's the case, do take note of the fact that these options must come ***before*** the subcommand you want to use, and any options for the subcommand will come ***after*** the subcommand.
 
 That's it! Payara Server is really quite flexible. There's usually at least one way to achieve your goal, often several ways. For any configuration which does not have a dedicated `asadmin` subcommand, the `set` subcommand can be used and, if you really don't know what's available, you can use the Payara Server `asadmin recorder` feature in the admin console which will write all the right commands to a file for you to replay at a later date.
