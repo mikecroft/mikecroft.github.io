@@ -18,7 +18,7 @@ The answer is simple. Some years ago, now, I worked as [an independent consultan
 
 Back to the question. We know how to change the password in an *interactive* way, but there doesn't seem to be any option to the `change-admin-password` command to allow you tell it both the current and the new password all in one line. This is the problem that the user in the question has hit - ***how can the password be changed non-interactively in a Dockerfile?***
 
-## Use the REST API
+## Option One: Use the REST API
 A relatively little-known feature of both Payara Server and GlassFish, the REST management interface is a really clever bit of engineering. When any new `asadmin` subcommand gets written and added, Payara Server parses it and generates a REST endpoint for it with no extra development effort! Neat!
 
 There's a nice example of this in [a set of scripts I created to quickly set up a legacy-style Payara Server cluster](https://github.com/mikecroft/payara-docker-cluster/blob/master/run-cluster.sh#L61-L76) (using Shoal, rather than Hazelcast). The key part of the script is highlighted and reproduced below:
@@ -93,10 +93,10 @@ In the example above, there is no value for `AS_ADMIN_PASSWORD` since the admin 
   }
 }
 {% endhighlight %}
-
+&nbsp;  
 Following the `curl` to change the password, I complete the process by enabling secure admin and restarting the domain to apply the changes.
 
-## Use a Passwordfile
+## Option Two: Use a Passwordfile
 More eagle-eyed readers will have already spotted the downside to using the REST API to change the admin password for a completely fresh domain; since the domain does not yet have secure admin enabled, the REST endpoint is HTTP only, so passwords are being sent in clear text!
 
 This is where [my original answer to the StackOverflow question](https://stackoverflow.com/questions/42773521/secure-admin-must-be-enabled-to-access-the-das-remotely-acess-glassfish-admin/42774130#42774130) comes in. I'll reproduce the answer below. Be aware that the Dockerfile I mention in the answer is [the official Payara Server Dockerfile from the 171 release](https://github.com/payara/docker-payaraserver-full/blob/171.1/Dockerfile) - from release 172, we've updated the Dockerfile to make use of a couple of other features.
