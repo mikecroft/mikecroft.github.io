@@ -8,6 +8,23 @@ From time to time, I speak at some conferences. It's always an interesting exper
 
 These are all listed in reverse order, with the most recent first.
 
+# 2017
+
+## Devoxx, Belgium
+***Eclipse MicroProfile: A quest for a lightweight and modern enterprise Java platform***  
+Beginning with a little background for MicroProfile, explaining where it came from and how to get involved, I will cover what you get with MicroProfile today, and what you will get in the future. The Eclipse MicroProfile project evolves very quickly, so what this talk contains will likely change a lot right up to the day it's presented! Since I work for Payara - a vendor involved with MicroProfile - my demos will use that and show off some of the features we've added to make using MicroProfile APIs feel natural to someone who is used to Payara Server or Payara Micro.
+
+## JavaOne, San Francisco
+***[A Step-by-Step Guide from Traditional Java EE to Reactive Microservice Design](https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=HOL1320&showEnrolled=false)***  
+This is really Ondrej's talk, but I'll be along for the ride. Ondrej has spoken at lots of conferences in 2016 and 2017 about Reactive Design principles with Java EE, particularly emphasising the fact that you don't need to learn a new framework to incorporate Reactive programming styles.
+
+***[Baking a Java EE 8 Micro Pi](https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=TUT2112&showEnrolled=false)***  
+This will be a tutorial and so will be expanded and revamped for JavaOne. Ondrej will be joining me for this one to help fill the gaps while I type and answer some questions.
+
+## NetBeans Day, UK
+***[Baking a Java EE 8 Micro Pi](https://www.payara.fish/see_us_at_the_netbeans_day_uk_2017)***  
+A workshop to demonstrate a few cool ways of working with Payara Micro and some early previews of Java EE 8 APIs. My developer colleague [Andrew Pielage](https://www.payara.fish/andy_pielage) helped me out by smartening up my code and showing off some nice features of NetBeans while we did it. The end result was a couple of microservices inspired by a [demo of Payara Micro on a Raspberry Pi](http://blog.payara.fish/piyara-payara-micro-on-raspberry-pi-demo), with added JSON-B for serialising the data and JAX-RS 2.1 in the form of Server-Sent Events.
+
 # 2016
 
 ## Devoxx, Belgium
@@ -25,7 +42,7 @@ Despite sharing the name with a talk I've already done, this is a new talk. It b
 
 ## JEEConf, Kiev
 *[Cloud Native Java EE](http://jeeconf.com/program/cloud-native-java-ee/)*  
-The key aim of this talk was to show that modern Enterprise Java is already ready for elastic, dynamically scalable deployments. It was the first outing for this talk, and I wasn't particularly happy with my delivery although I think the talk itself is good! The link above has a video of me which I haven't watched yet (I hate watching videos of myself back)
+The key aim of this talk was to show that modern Enterprise Java is already ready for elastic, dynamically scalable deployments. It was the first outing for this talk, and I wasn't particularly happy with my delivery although I think the talk itself is good! The link above has a video of me which I haven't watched yet (I hate watching videos of myself)
 
 *[Java EE Microservies Platforms - what's in it for me?](http://jeeconf.com/program/java-ee-microservices-platforms-whats-in-it-for-me/)*  
 A different title for what was the same talk as I presented earlier at JAX in London.
