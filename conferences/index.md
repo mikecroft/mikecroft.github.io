@@ -11,7 +11,7 @@ These are all listed in reverse order, with the most recent first.
 # 2017
 
 ## Devoxx, Belgium
-***Eclipse MicroProfile: A quest for a lightweight and modern enterprise Java platform***  
+***[Eclipse MicroProfile: A quest for a lightweight and modern enterprise Java platform](https://cfp.devoxx.be/2017/talk/TZU-3928/Eclipse_MicroProfile:_A_quest_for_a_lightweight_and_modern_enterprise_Java_platform)***  
 Beginning with a little background for MicroProfile, explaining where it came from and how to get involved, I will cover what you get with MicroProfile today, and what you will get in the future. The Eclipse MicroProfile project evolves very quickly, so what this talk contains will likely change a lot right up to the day it's presented! Since I work for Payara - a vendor involved with MicroProfile - my demos will use that and show off some of the features we've added to make using MicroProfile APIs feel natural to someone who is used to Payara Server or Payara Micro.
 
 ## JavaOne, San Francisco
