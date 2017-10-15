@@ -18,8 +18,8 @@ Beginning with a little background for MicroProfile, explaining where it came fr
 ***[A Step-by-Step Guide from Traditional Java EE to Reactive Microservice Design](https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=HOL1320&showEnrolled=false)***  
 This is really Ondrej's talk, but I'll be along for the ride. Ondrej has spoken at lots of conferences in 2016 and 2017 about Reactive Design principles with Java EE, particularly emphasising the fact that you don't need to learn a new framework to incorporate Reactive programming styles.
 
-***[Baking a Java EE 8 Micro Pi](https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=TUT2112&showEnrolled=false)***  
-This will be a tutorial and so will be expanded and revamped for JavaOne. Ondrej will be joining me for this one to help fill the gaps while I type and answer some questions.
+***[Baking a Java EE 8 Micro Pi](https://www.youtube.com/watch?v=FoAU5_ykkO8)***  
+This was a tutorial and so was expanded and revamped for JavaOne. Ondrej joined me for this one to help fill the gaps while I gave the main presentation. Although this was a tutorial (and therefore demo-heavy), I arrived to find that the AV for the room had been set up for a single laptop provided by Oracle. I was only allowed into the room 15 minutes before the start of the talk which wasn't enough time to configure the room to present my laptops screen at all. This carried on well into the time that I would have spent doing the actual talk! This meant that the core of my presentation - the demo - was impossible! The contents of the video above is my attempt to soldier on and at least get my point across. The remnant of the AV gremlins can be seen at the start since even the laptop for the room wasn't correctly configured to show the screen in the video! This is fixed a few minutes in though.
 
 ## NetBeans Day, UK
 ***[Baking a Java EE 8 Micro Pi](https://www.payara.fish/see_us_at_the_netbeans_day_uk_2017)***  
