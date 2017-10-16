@@ -20,7 +20,7 @@ To follow along with this blog, there are a few things you'll need to have set u
 ## 1. Create a New Project
 My function will eventually be part of a larger project to control the lights in my home, so I've created a Gradle Java project called LightController, with the following `build.gradle`:
 
-{% highlight groovy %}
+{% highlight gradle %}
 group 'io.mikecroft.demo.homecontroller.lambda'
 version '1.0-SNAPSHOT'
 
