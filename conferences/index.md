@@ -11,10 +11,16 @@ These are all listed in reverse order, with the most recent first.
 # 2017
 
 ## Devoxx, Belgium
+***[Opening Up Java EE: Panel Discussion](https://cfp.devoxx.be/2017/talk/FVP-6513/Opening_Up_Java_EE:_Panel_Discussion)***
+A panel discussion to cover Java EE and the transition to EE4J. Steve Millidge (director of Payara) was one of the people elected to the EE4J PMC, so I was asked to join this panel in that context
+
 ***[Eclipse MicroProfile: A quest for a lightweight and modern enterprise Java platform](https://cfp.devoxx.be/2017/talk/TZU-3928/Eclipse_MicroProfile:_A_quest_for_a_lightweight_and_modern_enterprise_Java_platform)***  
 Beginning with a little background for MicroProfile, explaining where it came from and how to get involved, I will cover what you get with MicroProfile today, and what you will get in the future. The Eclipse MicroProfile project evolves very quickly, so what this talk contains will likely change a lot right up to the day it's presented! Since I work for Payara - a vendor involved with MicroProfile - my demos will use that and show off some of the features we've added to make using MicroProfile APIs feel natural to someone who is used to Payara Server or Payara Micro.
 
 ## JavaOne, San Francisco
+***[Panel: Accelerating the Adoption of Java EE 8 with MicroProfile](https://www.youtube.com/watch?v=BhMLxwf0AMM)***
+This panel was comprised of representatives of MicroProfile and David Delabassee as representative of Oracle for Java EE. The discussion centred around how MicroProfile relates to Java EE and, with the move to EE4J, how things may develop in the future. It also allowed for a few questions from the audience.
+
 ***[A Step-by-Step Guide from Traditional Java EE to Reactive Microservice Design](https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=HOL1320&showEnrolled=false)***  
 This is really Ondrej's talk, but I'll be along for the ride. Ondrej has spoken at lots of conferences in 2016 and 2017 about Reactive Design principles with Java EE, particularly emphasising the fact that you don't need to learn a new framework to incorporate Reactive programming styles.
 
