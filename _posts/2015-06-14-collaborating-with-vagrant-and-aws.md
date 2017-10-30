@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
     override.ssh.private_key_path = "PATH TO YOUR PRIVATE KEY"
   end
 end
-{% endhighlight %}
+{% endhighlight %}  
 
 For anyone reading this who is not familiar with AWS, the two important bits to note are the `aws.access_key_id` and `aws.secret_access_key`. If the word "*secret*" wasn't enough to tell you it shouldn't really be shared freely on Github, the reason you shouldn't be spreading that around is that that ID/Key pair gives anyone with those access to your Amazon account. They can be revoked very easily, but it's absolutely not the sort of security breach you want. 
 
@@ -42,14 +42,14 @@ Ideally, what I wanted to do was to be able to use placeholder variables that I 
 
 What I found was the [vagrant-env](https://github.com/gosuri/vagrant-env) plugin, which does exactly what I wanted:
 
-{% highlight ruby %}  
+{% highlight ruby %}
 Vagrant.configure("2") do |config|
   config.vm.provider :aws do |aws, override|
     aws.access_key_id = ENV['AWS_ACCESS_KEY']
     aws.secret_access_key = ENV['AWS_SECRET_KEY']
   end
 end
-{% endhighlight %}
+{% endhighlight %}  
 
 After making sure the plugin was installed:
 
