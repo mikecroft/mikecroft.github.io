@@ -71,6 +71,9 @@ public class LightController implements RequestHandler {
 All we're doing here is echoing the input back to the user to confirm that we've received the message and and then act on it. We'll use later blogs to do more interesting things.
 
 ## 3. Create the Function in the AWS Dashboard
+To create our function, go to the Lambda dashboard and click "Create Function" and "Author from scratch"
+
+![Author from scratch]({{ "/assets/lambda/author-from-scratch.png" | absolute_url }})
 
 ## 4. Improve the Workflow
 There is, of course, a plugin available for Gradle to speed up the deployment of Lambda functions. It requires some preconfiguration, though, since AWS credentials are sensitive and we don't want them in our build scripts.
