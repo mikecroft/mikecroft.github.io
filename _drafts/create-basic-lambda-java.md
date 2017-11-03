@@ -75,13 +75,38 @@ To create our function, go to the Lambda dashboard and click "Create Function" a
 
 ![Author from scratch]({{ "/assets/lambda/author-from-scratch.png" | absolute_url }})
 
-## 4. Improve the Workflow
-There is, of course, a plugin available for Gradle to speed up the deployment of Lambda functions. It requires some preconfiguration, though, since AWS credentials are sensitive and we don't want them in our build scripts.
+You will then need to choose a name for your function - `LightController` in my case - and assign an **IAM** role. For our purposes, it's easiest to just create a new one, so click "Create a custom role" in the dropdown and you will automatically be taken to an IAM role creation page:
+
+![IAM role creation]({{ "/assets/lambda/IAM_Role.png" | absolute_url }})
+
+Add a sensible name and click "Allow". You should then return to the function creation page and be able to select your new role:
+
+![create function]({{ "/assets/lambda/create-function.png" | absolute_url }})
+
+Now, we have an empty function ready for us to upload the zip file from the gradle build and add a ***fully qualified*** method reference to our handler method in the field provided:  
+`io.mikecroft.demo.homecontroller.lambda.LightController::handleRequest`
+![function dashboard]({{ "/assets/lambda/function-dashboard.png" | absolute_url }})
+
+Once that's done, all that's left is to test the function to prove it works!
+
+## 4. Test the function
+First, we need to create a new test. Click the orange "Test" button in the top right corner and you will be shown a "Hello World" template with some sample data in:
+
+![create test]({{ "/assets/lambda/test-event.png" | absolute_url }})
+
+After adding our own message and clicking "Save", we can now execute this same test whenever we want from the dashboard. If everything is configured correctly, you should see a success message similar to the one below:
+
+![test success]({{ "/assets/lambda/tested.png" | absolute_url }})
+
+Note that the white area shows the output of our function, so we've proved it works! Now we're sure of the basics, we can build more complex flows on top!
+
+## 5. Improve the Workflow
+Before we move on there is, of course, a plugin available for Gradle to speed up the deployment of Lambda functions. It requires some preconfiguration, though, since AWS credentials are sensitive and we don't want them in our build scripts.
 
 * Create an [AWS Credentials file](http://docs.aws.amazon.com/cli/latest/topic/config-vars.html) (`~/.aws/credentials` or `~/.aws/config`)
 * .
 
-The plugin is provided by ClassMethod and available on GitHub and in Gradle's plugins repository. To use it, I made a few small changes to my `build.gradle` with a few extra imports, a definition of the Gradle repository and a dependency on the plugin itself:
+The plugin is provided by _ClassMethod_ and available on GitHub and in Gradle's plugins repository. To use it, I made a few small changes to my `build.gradle` with a few extra imports, a definition of the Gradle repository and a dependency on the plugin itself:
 
 {% highlight gradle %}
 import com.amazonaws.services.lambda.model.InvocationType
