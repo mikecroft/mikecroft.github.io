@@ -24,16 +24,16 @@ Since I don't plan on exceeding the limit of 1 million requests for either Lambd
 ## What Pieces Do We Need To Put Together?
 There are a couple of things we need to get working to create this scenario. Each one has a few gotchas which tripped me up along the way so, to avoid making this a very long post (or not explaining them properly), I'll put the example together in a few steps over several posts:
 
-***[Step 1](): Create a Lambda Function***
+***[Step 1: Create a Lambda Function]({{ site.baseurl }}{% post_url 2017-11-27-create-basic-lambda-java %})***
 In this step, we'll create a generic Lambda function which performs the most basic task of echoing the input back to the requester.
 
-***[Step 2](): Modify the Function to Send a Message to SQS***
+***[Step 2: Modify the Function to Send a Message to SQS]()***
 Building on the first step, we will use the AWS SDK to forward the input to an SQS queue.
 
-***[Step 3](): Create an Application on Payara Micro to Consume the Message***
+***[Step 3: Create an Application on Payara Micro to Consume the Message]()***
 Once we can queue messages to SQS, we will need to do something with them. This step will use [the SQS Cloud Connector JCA adapter](https://github.com/payara/Cloud-Connectors/tree/master/AmazonSQS) to consume messages with an MDB.
 
-***[Step 4](): Use API Gateway to Call the Function***
+***[Step 4: Use API Gateway to Call the Function]()***
 The most flexible way to invoke Lambda functions is to use API Gateway to create a REST API for the function. This step will look at this process.
 
 ## Going Further with IoT
