@@ -12,7 +12,6 @@ tags:
 This post is part of [a series on serverless computing with AWS Lambda](), but is written as a standalone introduction to AWS Lambda with Java. In this post, I'll create a very basic function which just echos back the message that I send to it. In the next part of this series, we'll modify the function to do something a bit more useful!
 
 To follow along with this blog, there are a few things you'll need to have set up first:
-
 * An AWS account
 * Java 8
 * Gradle
@@ -167,7 +166,32 @@ task invoke(type: AWSLambdaInvokeTask) {
 &nbsp;   
 Finally, the invoke task has just been configured here to test with a payload that clearly comes from Gradle rather than the web UI.
 
+Now, we can build, deploy and test our function with just a single command:
+
+{% highlight Plain Text %}
+➜  AWSLambdaSQSDemo git:(master) gradle clean build deploy invoke -b LightController/build.gradle
+:clean
+:compileJava
+:processResources NO-SOURCE
+:classes
+:jar
+:assemble
+:buildZip
+:compileTestJava NO-SOURCE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test NO-SOURCE
+:check UP-TO-DATE
+:build
+:deploy
+:invoke
+Lambda function result: "Received message: {msg=A message from Gradle}"
+
+BUILD SUCCESSFUL
+
+Total time: 37.2 secs
+{% endhighlight %}
+&nbsp;   
 The really nice thing about the plugin is that, once you are familiar with AWS Lambda, you can completely ignore the web interface since the deploy task will create the function if it does not already exist. Neat!
 
 The next step will be to modify the function to send a message to an SQS queue!
-
