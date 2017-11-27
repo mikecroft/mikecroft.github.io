@@ -103,8 +103,7 @@ Note that the white area shows the output of our function, so we've proved it wo
 ## 5. Improve the Workflow
 Before we move on there is, of course, a plugin available for Gradle to speed up the deployment of Lambda functions. It requires some preconfiguration, though, since AWS credentials are sensitive and we don't want them in our build scripts.
 
-* Create an [AWS Credentials file](http://docs.aws.amazon.com/cli/latest/topic/config-vars.html) (`~/.aws/credentials` or `~/.aws/config`)
-* .
+The first thing is to create an [AWS Credentials file](http://docs.aws.amazon.com/cli/latest/topic/config-vars.html) (`~/.aws/credentials` or `~/.aws/config`) to store the AWS access key and secret key pair used to authenticate with AWS. This is a pretty important step, and it's worthwhile checking any existing credentials if you have already got one set up, since [you may not be using the account you think you are](https://stackoverflow.com/questions/46676287/aws-cli-and-java-sdk-return-incorrect-urls-for-sqs-queues).
 
 The plugin is provided by _ClassMethod_ and available on GitHub and in Gradle's plugins repository. To use it, I made a few small changes to my `build.gradle` with a few extra imports, a definition of the Gradle repository and a dependency on the plugin itself:
 
@@ -139,6 +138,8 @@ aws {
 &nbsp;   
 Also specified here is the region. It should be possible to set the region in an `~/.aws/config` file, but I found that this did not work. Directly configuring the plugin like I have done here works very well, though.
 
+Next, we can create a couple of Gradle tasks. Here, I've created a `deploy` task and an `invoke` task:
+
 {% highlight gradle %}
 task deploy(type: AWSLambdaMigrateFunctionTask, dependsOn: build) {
     functionName = "LightController"
@@ -151,7 +152,7 @@ task deploy(type: AWSLambdaMigrateFunctionTask, dependsOn: build) {
 }
 {% endhighlight %}
 &nbsp;   
-.
+The configuration of the task reflects exactly the fields available through the web console.
 
 {% highlight gradle %}
 task invoke(type: AWSLambdaInvokeTask) {
@@ -164,5 +165,9 @@ task invoke(type: AWSLambdaInvokeTask) {
 }
 {% endhighlight %}
 &nbsp;   
+Finally, the invoke task has just been configured here to test with a payload that clearly comes from Gradle rather than the web UI.
 
+The really nice thing about the plugin is that, once you are familiar with AWS Lambda, you can completely ignore the web interface since the deploy task will create the function if it does not already exist. Neat!
+
+The next step will be to modify the function to send a message to an SQS queue!
 
