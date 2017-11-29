@@ -35,8 +35,8 @@ The vast majority of my blogging is done for Payara now and those are collected 
 * 27 November 2015: [Devoxx 2015 - 20 Years of Java](http://blog.payara.fish/devoxx-2015-20-years-of-java)
 * 04 December 2015: [Java EE Microservices - the Payara Way](http://blog.payara.fish/java-ee-microservices-the-payara-way)
 
+&nbsp;  
 ----  
-&nbsp;
 
 # C2B2 Blogs
 These blogs were (almost) all published before I transferred to Payara. At that time, I worked with lots of Java middleware, hence the wide range. There may be one or two formatting issues, since the blogging platform was upgraded and not every blog converted properly.
