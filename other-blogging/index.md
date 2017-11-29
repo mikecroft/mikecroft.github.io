@@ -8,7 +8,35 @@ Since most of my blogging now is done for Payara, and before that C2B2, I though
 
 I have marked blogs that I think are still relevant or interesting in bold below.
 
+# Payara Blogs
+The vast majority of my blogging is done for Payara now and those are collected here. I have left out the release announcement blogs.
+
+## 2017
+* **18 May 2017: [Using the JMS Notifier with Payara Micro](http://blog.payara.fish/using-the-jms-notifier-with-payara-micro)***
+* 28 July 2017: [Swimming Upstream: Moving Forward with Eclipse MicroProfile and JDK 8](http://blog.payara.fish/swimming-upstream-moving-forward-with-eclipse-microprofile-and-jdk-8)
+* **03 August 2017: [Using the Payara Micro Maven Plugin](http://blog.payara.fish/using-the-payara-micro-maven-plugin)**
+* 21 November 2017: [Eclipse MicroProfile: a quest for a lightweight and modern enterprise Java platform](http://blog.payara.fish/eclipse-microprofile-a-quest-for-a-lightweight-and-modern-enterprise-java-platform)
+* **23 November 2017: [AWS Native Discovery with Payara Micro](http://blog.payara.fish/aws-native-discovery-with-payara-micro)**
+
+## 2016
+* 22 March 2016: [Troubleshooting your Java EE Applications](http://blog.payara.fish/troubleshooting-your-java-ee-applications)
+* 25 April 2016: [Automating Production in Payara Server](http://blog.payara.fish/automating-production-in-payara-server)
+* **01 June 2016: [Backup & Restore of Payara Server](http://blog.payara.fish/backup-restore-of-payara-server)**
+* **02 June 2016: [How to Upgrade Payara Server](http://blog.payara.fish/how-to-upgrade-payara-server)**
+* 30 June 2016: [Creating a Simple Cluster with Payara Server](http://blog.payara.fish/creating-a-simple-cluster-with-payara-server)
+* 02 August 2016: [Payara Micro - Dynamic Clustering Demo](http://blog.payara.fish/payara-micro-dynamic-clustering-demo)
+* 02 September 2016: [Quick Tip: Don't Deploy to the DAS in Production!](http://blog.payara.fish/payara-server-in-production-quick-tip)
+* 26 October 2016: [Working with External Configuration Files in Payara Micro](http://blog.payara.fish/working-with-external-configuration-files-in-payara-micro)
+* 21 November 2016: [The MicroProfile at Devoxx: Learning Our Way Forward](http://blog.payara.fish/the-microprofile-at-devoxx-learning-our-way-forward)
+* **30 November 2016: [CDI Scanning in Payara Server](http://blog.payara.fish/cdi-scanning-in-payara-server)**
+
+## 2015
+* 02 July 2015: [A Vagrantfile for Payara](http://blog.payara.fish/a-vagrantfile-for-payara-server)
+* 27 November 2015: [Devoxx 2015 - 20 Years of Java](http://blog.payara.fish/devoxx-2015-20-years-of-java)
+* 04 December 2015: [Java EE Microservices - the Payara Way](http://blog.payara.fish/java-ee-microservices-the-payara-way)
+
 # C2B2 Blogs
+These blogs were (almost) all published before I transferred to Payara. At that time, I worked with lots of Java middleware, hence the wide range. There may be one or two formatting issues, since the blogging platform was upgraded and not every blog converted properly.
 
 ## 2016
 * 24 February 2016: [Using the Vagrant-Env Plugin for AWS Collaboration](http://blog.c2b2.co.uk/2016/02/using-vagrant-env-plugin-for-aws.html)
