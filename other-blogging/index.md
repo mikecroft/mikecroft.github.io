@@ -4,9 +4,22 @@ title: other blogging
 ---
 
 
-Since most of my blogging now is done for Payara, and before that C2B2, I thought I would maintain a list of links to those blogs I have written elsewhere. I'll also try to include links to posts which have been published on other blogs too, where I can.
+Since most of my blogging now is done for Payara, and before that C2B2, I thought I would maintain a list of links to those blogs I have written elsewhere. I'll also try to include links to posts and interviews which have been published on other blogs too, where I can.
 
 I have marked blogs that I think are still relevant or interesting in bold below.
+
+# Interviews & Guest Blogs
+* 13 November 2017: [Interview: How to avoid pitfalls when implementing microservices](http://searchmicroservices.techtarget.com/feature/How-to-avoid-pitfalls-when-implementing-microservices)
+* 08 December 2016: [Interview: Standardizing app staging a key benefit to a Java configuration API](http://www.theserverside.com/video/Standardizing-app-staging-a-key-benefit-to-a-Java-configuration-API)
+* 01 December 2016: [Interview: Plan well and don't rush into building microservices](http://searchmicroservices.techtarget.com/video/Plan-well-and-dont-rush-into-building-microservices-Java-pro-says)
+* 17 July 2015: [Interview: The Future of Payara, GlassFish, and Java EE](https://www.voxxed.com/2015/08/interview-the-future-of-payara-glassfish-and-java-ee/)
+* 07 August 2015: [Water Won't Solve Your JBoss Problems!](https://www.voxxed.com/2015/08/water-wont-solve-your-jboss-problems/)
+
+&nbsp;
+
+----  
+
+&nbsp;
 
 # Payara Blogs
 The vast majority of my blogging is done for Payara now and those are collected here. I have left out the release announcement blogs.
@@ -38,6 +51,8 @@ The vast majority of my blogging is done for Payara now and those are collected 
 &nbsp;
 
 ----  
+
+&nbsp;
 
 # C2B2 Blogs
 These blogs were (almost) all published before I transferred to Payara. At that time, I worked with lots of Java middleware, hence the wide range. There may be one or two formatting issues, since the blogging platform was upgraded and not every blog converted properly.
