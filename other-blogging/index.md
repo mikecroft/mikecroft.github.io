@@ -9,6 +9,7 @@ Since most of my blogging now is done for Payara, and before that C2B2, I though
 I have marked blogs that I think are still relevant or interesting in bold below.
 
 # Interviews & Guest Blogs
+* 02 December 2017: [ZeroTurnaround Guest Blog: Speed Up MicroService Development with JRebel and Payara Micro](https://zeroturnaround.com/rebellabs/speed-up-microservice-development-with-jrebel-and-payara-micro/)
 * 30 November 2017: [Interview: What's New in MicroProfile 1.2](https://www.infoq.com/news/2017/11/whats-new-in-microprofile-1-2)
 * 13 November 2017: [Interview: How to avoid pitfalls when implementing microservices](http://searchmicroservices.techtarget.com/feature/How-to-avoid-pitfalls-when-implementing-microservices)
 * 08 December 2016: [Interview: Standardizing app staging a key benefit to a Java configuration API](http://www.theserverside.com/video/Standardizing-app-staging-a-key-benefit-to-a-Java-configuration-API)
