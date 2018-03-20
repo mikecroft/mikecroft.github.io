@@ -75,7 +75,7 @@ These blogs were (almost) all published before I transferred to Payara. At that 
 
 ## 2015
 * **17 February 2015: [JBoss EAP 6 Domain Mode](http://blog.c2b2.co.uk/middleware-blog/jboss-eap-6-domain-mode.php)**
-* **09 March 2015: [How to Configure a Simple JBoss Cluster in Domain Mode](hhttp://blog.c2b2.co.uk/middleware-blog/how-to-configure-a-simple-jboss-cluster-in-domain-mode.php)**
+* **09 March 2015: [How to Configure a Simple JBoss Cluster in Domain Mode](http://blog.c2b2.co.uk/middleware-blog/how-to-configure-a-simple-jboss-cluster-in-domain-mode.php)**
 * **22 April 2015: [JBoss EAP 6 CLI](http://blog.c2b2.co.uk/middleware-blog/jboss-eap-6-cli.php)**
 * 14 August 2015: [Hands-on Performance Lab at Devoxx Poland - Interview with Mike Croft](http://blog.c2b2.co.uk/middleware-blog/mike-croft-at-devoxx-poland.php)
 * 16 November 2015: [Fixing Performance Problems with Someone Else's Toolbox - C2B2 at Devoxx 2015](http://blog.c2b2.co.uk/middleware-blog/fixing-performance-problems-with.php)
