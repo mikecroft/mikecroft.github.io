@@ -26,8 +26,19 @@ I have marked blogs that I think are still relevant or interesting in bold below
 # Payara Blogs
 The vast majority of my blogging is done for Payara now and those are collected here. I have left out the release announcement blogs.
 
+## 2018
+* 19 Mar 2018: [What's New in Payara Server & Payara Micro 5?](http://blog.payara.fish/whats-new-in-payara-server-payara-micro-5)
+* **27 Feb 2018 [Jakarta EE marks a new era](http://blog.payara.fish/jakarta-ee-marks-a-new-era)**
+* **01 Feb 2018: [Preview: MicroProfile Fault Tolerance in Payara Micro](http://blog.payara.fish/preview-microprofile-fault-tolerance-in-payara-micro)**
+
 ## 2017
-* **18 May 2017: [Using the JMS Notifier with Payara Micro](http://blog.payara.fish/using-the-jms-notifier-with-payara-micro)***
+* **14 Dec 2017: [Speed up Microservice Development with JRebel and Payara Micro](http://blog.payara.fish/speed-up-microservice-development-with-jrebel-and-payara-micro)**
+* **23 Nov 2017: [AWS Native Discovery with Payara Micro](http://blog.payara.fish/aws-native-discovery-with-payara-micro)**
+* **21 Nov 2017: [Eclipse MicroProfile: a quest for a lightweight and modern enterprise Java platform](http://blog.payara.fish/eclipse-microprofile-a-quest-for-a-lightweight-and-modern-enterprise-java-platform)**
+* **03 Aug 2017: [Using the Payara Micro Maven Plugin](http://blog.payara.fish/using-the-payara-micro-maven-plugin)**
+* 28 Jul 2017: [Swimming Upstream: Moving Forward with Eclipse MicroProfile and JDK 8](http://blog.payara.fish/swimming-upstream-moving-forward-with-eclipse-microprofile-and-jdk-8)
+* 26 May 2017: [Introducing Payara Streams](http://blog.payara.fish/introducing-payara-server-streams)
+* **18 May 2017: [Using the JMS Notifier with Payara Micro](http://blog.payara.fish/using-the-jms-notifier-with-payara-micro)**
 * 28 July 2017: [Swimming Upstream: Moving Forward with Eclipse MicroProfile and JDK 8](http://blog.payara.fish/swimming-upstream-moving-forward-with-eclipse-microprofile-and-jdk-8)
 * **03 August 2017: [Using the Payara Micro Maven Plugin](http://blog.payara.fish/using-the-payara-micro-maven-plugin)**
 * 21 November 2017: [Eclipse MicroProfile: a quest for a lightweight and modern enterprise Java platform](http://blog.payara.fish/eclipse-microprofile-a-quest-for-a-lightweight-and-modern-enterprise-java-platform)
@@ -64,7 +75,7 @@ These blogs were (almost) all published before I transferred to Payara. At that 
 
 ## 2015
 * **17 February 2015: [JBoss EAP 6 Domain Mode](http://blog.c2b2.co.uk/middleware-blog/jboss-eap-6-domain-mode.php)**
-* **09 March 2015: [How to Configure a Simple JBoss Cluster in Domain Mode](http://blog.c2b2.co.uk/middleware-blog/how-to-configure-simple-jboss-cluster.php)**
+* **09 March 2015: [How to Configure a Simple JBoss Cluster in Domain Mode](hhttp://blog.c2b2.co.uk/middleware-blog/how-to-configure-a-simple-jboss-cluster-in-domain-mode.php)**
 * **22 April 2015: [JBoss EAP 6 CLI](http://blog.c2b2.co.uk/middleware-blog/jboss-eap-6-cli.php)**
 * 14 August 2015: [Hands-on Performance Lab at Devoxx Poland - Interview with Mike Croft](http://blog.c2b2.co.uk/middleware-blog/mike-croft-at-devoxx-poland.php)
 * 16 November 2015: [Fixing Performance Problems with Someone Else's Toolbox - C2B2 at Devoxx 2015](http://blog.c2b2.co.uk/middleware-blog/fixing-performance-problems-with.php)
