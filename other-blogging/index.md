@@ -78,19 +78,20 @@ These blogs were (almost) all published before I transferred to Payara. At that 
 * **17 February 2015: [JBoss EAP 6 Domain Mode](https://www.c2b2.co.uk/middleware-blog/jboss-eap-6-domain-mode.php)**
 * **09 March 2015: [How to Configure a Simple JBoss Cluster in Domain Mode](https://www.c2b2.co.uk/middleware-blog/how-to-configure-a-simple-jboss-cluster-in-domain-mode.php)**
 * **22 April 2015: [JBoss EAP 6 CLI](https://www.c2b2.co.uk/middleware-blog/jboss-eap-6-cli.php)**
-* 14 August 2015: [Hands-on Performance Lab at Devoxx Poland - Interview with Mike Croft](https://www.c2b2.co.uk/middleware-blog/mike-croft-at-devoxx-poland.php)
-* 16 November 2015: [Fixing Performance Problems with Someone Else's Toolbox - C2B2 at Devoxx 2015](https://www.c2b2.co.uk/middleware-blog/fixing-performance-problems-with.php)
+* 14 August 2015: [Hands-on Performance Lab at Devoxx Poland - Interview with Mike Croft](https://www.c2b2.co.uk/middleware-blog/hands-on-performance-lab-at-devoxx-poland-interview-with-mike-croft.php)
+* 19 August 2015: [Tuning Tomcat Connectors](https://www.c2b2.co.uk/middleware-blog/tuning-tomcat-connectors.php)
+* 16 November 2015: [Fixing Performance Problems with Someone Else's Toolbox - C2B2 at Devoxx 2015](https://www.c2b2.co.uk/middleware-blog/fixing-performance-problems-with-someone-elses-toolbox.php)
 
 ## 2014
-* 19 March 2014: [Getting the most out of WLDF Part 1: What is the WLDF?](https://www.c2b2.co.uk/middleware-blog/getting-most-out-of-wldf-part-1-what-is.php)
-* 03 April 2014: [Getting the most out of WLDF Part 2: Watches](https://www.c2b2.co.uk/middleware-blog/getting-most-out-of-wldf-part-2-watches.php)
-* **10 April 2014: [How to set up a cluster with Tomcat 8, Apache and mod_jk](https://www.c2b2.co.uk/middleware-blog/how-to-set-up-cluster-with-tomcat-8.php)**
-* 27 May 2014: [Getting the most out of WLDF Part 3: Notifications](https://www.c2b2.co.uk/middleware-blog/getting-most-out-of-wldf-part-3.php)
-* 28 July 2014: [Getting the most out of WLDF Part 4: The Monitoring Dashboard](https://www.c2b2.co.uk/middleware-blog/getting-most-out-of-wldf-part-4.php)
+* 19 March 2014: [Getting the most out of WLDF Part 1: What is the WLDF?](https://www.c2b2.co.uk/middleware-blog/getting-the-most-out-of-wldf-part-1-what-is-the-wldf.php)
+* 03 April 2014: [Getting the most out of WLDF Part 2: Watches](https://www.c2b2.co.uk/middleware-blog/getting-the-most-out-of-wldf-part-2-watches.php)
+* **10 April 2014: [How to set up a cluster with Tomcat 8, Apache and mod_jk](https://www.c2b2.co.uk/middleware-blog/how-to-set-up-a-cluster-with-tomcat-8-apache-and-mod-jk.php)**
+* 27 May 2014: [Getting the most out of WLDF Part 3: Notifications](https://www.c2b2.co.uk/middleware-blog/getting-the-most-out-of-wldf-part-3-notifications.php)
+* 28 July 2014: [Getting the most out of WLDF Part 4: The Monitoring Dashboard](https://www.c2b2.co.uk/middleware-blog/getting-the-most-out-of-wldf-part-4-the-monitoring-dashboard.php)
 * **23 December 2014: [Guerilla JMX Monitoring](https://www.c2b2.co.uk/middleware-blog/guerilla-jmx-monitoring.php)**
 
 ## 2013
-* 19 March 2013: [A Smartphone as a Java EE Server: Glassfish 4 on Ubuntu Touch](https://www.c2b2.co.uk/middleware-blog/a-smartphone-as-jee-server-glassfish-on.php)
+* 19 March 2013: [A Smartphone as a Java EE Server: Glassfish 4 on Ubuntu Touch](https://www.c2b2.co.uk/middleware-blog/a-smartphone-as-a-jee-server-glassfish-4-on-ubuntu-touch.php)
 * 05 June 2013: [Software AG Process Driven Forum](https://www.c2b2.co.uk/middleware-blog/software-ag-process-driven-forum.php)
 * 12 June 2013: [What's new in Glassfish 4?](https://www.c2b2.co.uk/middleware-blog/whats-new-in-glassfish-4.php)
 * 19 July 2013: [What's new in Coherence 12c?](https://www.c2b2.co.uk/middleware-blog/whats-new-in-coherence-12c.php)
@@ -98,11 +99,11 @@ These blogs were (almost) all published before I transferred to Payara. At that 
 * 29 August 2013: [Terracotta In-Genius](https://www.c2b2.co.uk/middleware-blog/terracotta-in-genius.php)
 * 10 September 2013: [Common GlassFish Problems](https://www.c2b2.co.uk/middleware-blog/common-glassfish-problems.php)
 * 18 September 2013: [Java Mission Control Released](https://www.c2b2.co.uk/middleware-blog/java-mission-control-released.php)
-* **01 October 2013: [How to install Apache and mod\_jk](https://www.c2b2.co.uk/middleware-blog/how-to-install-apache-and-modjk.php)**
+* **01 October 2013: [How to install Apache and mod\_jk](https://www.c2b2.co.uk/middleware-blog/how-to-install-apache-and-mod-jk.php)**
 
 ## 2012
-* 01 July 2012: [Bridging Message Destinations in Weblogic](https://www.c2b2.co.uk/middleware-blog/bridging-message-destinations-in.php)
-* 19 October 2012: [Basic clustering with Weblogic 12c and Apache Web Server](https://www.c2b2.co.uk/middleware-blog/basic-clustering-with-weblogic-12c-and.php)
+* 01 July 2012: [Bridging Message Destinations in Weblogic](https://www.c2b2.co.uk/middleware-blog/bridging-message-destinations-in-weblogic.php)
+* 19 October 2012: [Basic clustering with Weblogic 12c and Apache Web Server](https://www.c2b2.co.uk/middleware-blog/basic-clustering-with-weblogic-12c-and-apache-web-server.php)
 * 26 October 2012: [Weblogic Troubleshooting With JRockit](https://www.c2b2.co.uk/middleware-blog/weblogic-troubleshooting-with-jrockit.php)
 * 28 November 2012: [An Introduction to Monitoring With RHQ](https://www.c2b2.co.uk/middleware-blog/an-introduction-to-monitoring-with-rhq.php)
 
