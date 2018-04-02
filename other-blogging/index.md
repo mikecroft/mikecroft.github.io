@@ -9,6 +9,7 @@ Since most of my blogging now is done for Payara, and before that C2B2, I though
 I have marked blogs that I think are still relevant or interesting in bold below.
 
 # Interviews & Guest Blogs
+* 30 March 2018: [Payara Foundation Releases Payara Server 5 and Payara Micro 5](https://www.infoq.com/news/2018/03/payara-releases-version-5)
 * 02 December 2017: [ZeroTurnaround Guest Blog: Speed Up MicroService Development with JRebel and Payara Micro](https://zeroturnaround.com/rebellabs/speed-up-microservice-development-with-jrebel-and-payara-micro/)
 * 30 November 2017: [Interview: What's New in MicroProfile 1.2](https://www.infoq.com/news/2017/11/whats-new-in-microprofile-1-2)
 * 13 November 2017: [Interview: How to avoid pitfalls when implementing microservices](http://searchmicroservices.techtarget.com/feature/How-to-avoid-pitfalls-when-implementing-microservices)
@@ -71,7 +72,7 @@ The vast majority of my blogging is done for Payara now and those are collected 
 These blogs were (almost) all published before I transferred to Payara. At that time, I worked with lots of Java middleware, hence the wide range. There may be one or two formatting issues, since the blogging platform was upgraded and not every blog converted properly.
 
 ## 2016
-* 24 February 2016: [Using the Vagrant-Env Plugin for AWS Collaboration](http://blog.c2b2.co.uk/middleware-blog/using-vagrant-env-plugin-for-aws.php)
+* 24 February 2016: [Using the Vagrant-Env Plugin for AWS Collaboration](https://www.c2b2.co.uk/middleware-blog/using-the-vagrant-env-plugin-for-aws-collaboration.php)
 
 ## 2015
 * **17 February 2015: [JBoss EAP 6 Domain Mode](http://blog.c2b2.co.uk/middleware-blog/jboss-eap-6-domain-mode.php)**
