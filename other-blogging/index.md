@@ -28,6 +28,7 @@ I have marked blogs that I think are still relevant or interesting in bold below
 The vast majority of my blogging is done for Payara now and those are collected here. I have left out the release announcement blogs.
 
 ## 2018
+* **29 Mar 2018: [Taking Payara To The Cloud](https://blog.payara.fish/-taking-payara-to-the-cloud)**
 * 19 Mar 2018: [What's New in Payara Server & Payara Micro 5?](http://blog.payara.fish/whats-new-in-payara-server-payara-micro-5)
 * **27 Feb 2018 [Jakarta EE marks a new era](http://blog.payara.fish/jakarta-ee-marks-a-new-era)**
 * **01 Feb 2018: [Preview: MicroProfile Fault Tolerance in Payara Micro](http://blog.payara.fish/preview-microprofile-fault-tolerance-in-payara-micro)**
