@@ -9,7 +9,7 @@ tags:
  - Series
 ---
 
-This post is part of [a series on serverless computing with AWS Lambda](), but is written as a standalone introduction to AWS Lambda with Java. In this post, I'll create a very basic function which just echos back the message that I send to it. In the next part of this series, we'll modify the function to do something a bit more useful!
+This post is part of [a series on serverless computing with AWS Lambda](https://mikecroft.io/2017/11/02/async-home-automation-lambda-sqs.html), but is written as a standalone introduction to AWS Lambda with Java. In this post, I'll create a very basic function which just echos back the message that I send to it. In the next part of this series, we'll modify the function to do something a bit more useful!
 
 To follow along with this blog, there are a few things you'll need to have set up first:
 * An AWS account
