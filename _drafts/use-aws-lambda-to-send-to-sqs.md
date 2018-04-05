@@ -79,7 +79,13 @@ task deploy(type: AWSLambdaMigrateFunctionTask, dependsOn: build) {
 {% endhighlight %}
 &nbsp;
 
-It's important to note how easy it us to get caught out if you have more than one AWS account here. [It certainly happened to me](https://stackoverflow.com/questions/46676287/aws-cli-and-java-sdk-return-incorrect-urls-for-sqs-queues)!
+We could, of course, bump up both values much higher to give a lot of headroom for further expansion of the function, but cost needs to be taken into account as well. While Lambda does give the first 1M requests for free, it also limits the free tier by duration and allows 400,000 GB seconds of compute time. For this case, the limit is still very high indeed and isn't anything to worry about, but it's certainly something to bear in mind when estimating production costs.
+
+Secondly, it's important to note how easy it us to get caught out if you have more than one AWS account here. [It certainly happened to me](https://stackoverflow.com/questions/46676287/aws-cli-and-java-sdk-return-incorrect-urls-for-sqs-queues)! Where I got caught out was in setting up my AWS credentials locally and invoking my function. I could see that my function worked successfully, so I opened up my AWS console and looked for the message in the SQS queue, but found nothing there. After a lot of confusion, and asking about it on StackOverflow, I found the missing messages in an SQS queue on another AWS account.
+
+What really threw me was that I hadn't realised the SQS queue could be created if it didn't exist as a default behaviour. My first "lights" queue was created manually but, in testing my code, I had inadvertantly created an identical queue in a separate account!
+
+Fortunately, the answer was staring me in the face, though I didn't recognise it. The output of testing the function in the dashboard was as follows:
 
 ```
 START RequestId: 0b6e1b4a-367c-11e8-ac75-87c943e47109 Version: $LATEST
@@ -88,10 +94,11 @@ Sending msg '{msg=A message from the AWS Dashboard}'
 END RequestId: 0b6e1b4a-367c-11e8-ac75-87c943e47109
 ```
 
-As
+As you can see, the queue output (masked here) included the account number for the AWS account where the queue was located. Discovering that the number was an account number rather than a simple queue ID made the answer obvious.
 
 
-
+## Next...
+This has been a relatively short blog, overall, but there hasn't been much to show. The API is simple and easy to get up and running with. The next step will be introducing Payara Micro to consume the SQS message and process a command.
 
 
 
