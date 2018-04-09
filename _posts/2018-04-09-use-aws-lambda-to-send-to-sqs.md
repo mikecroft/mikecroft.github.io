@@ -92,7 +92,7 @@ Sending msg '{msg=A message from the AWS Dashboard}'
     to Q: https://sqs.eu-west-1.amazonaws.com/9**********2/lights
 END RequestId: 0b6e1b4a-367c-11e8-ac75-87c943e47109
 ```
-
+&nbsp;  
 As you can see, the queue output (masked here) included the account number for the AWS account where the queue was located. Discovering that the number was an account number rather than a simple queue ID made the answer obvious.
 
 
