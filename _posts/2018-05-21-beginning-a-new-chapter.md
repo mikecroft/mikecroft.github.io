@@ -6,7 +6,7 @@ comments: true
 
 Tomorrow is Tuesday the 22nd of May 2018 and my final day at Payara. The day after will be Wednesday the 23rd of May and my first day as a consultant with Red Hat.
 
-<div style="text-align: center;"><img width="40%" height="40%" align="center" src="{{ site.url }}/assets/payara-logo.png"></div>
+<div style="text-align: center;"><img width="40%" height="40%" align="center" src="{{ site.url }}/assets/payara-logo.png"></div><br />
 
 The last few weeks have been very surreal. I've been with Payara since before it existed, so it's hard not to feel sad to leave it behind, despite looking forward to a new future. I'm really proud of what we've built together in Payara - both the software and the company - and it's really heartening to leave it in such a strong position and experiencing such a lot of growth.
 
