@@ -16,4 +16,4 @@ I'm also really excited to see how Payara develops from the outside. Knowing the
 
 The only thing that's left now is to see where the future takes me. And get myself a stylish new hat.
 
-<div style="text-align: center;"><img width="80%" align="center" src="{{ site.url }}/assets/redhat-logo.png"></div>
+<div style="text-align: center;"><img width="60%" align="center" src="{{ site.url }}/assets/redhat-logo.png"></div>
