@@ -89,3 +89,5 @@ minishift dashboard
 &nbsp;  
 A browser window should open with the dashboard in view. Select the project you created and click the route to be taken to the application. In the case of this example, we need to append the path `/clusterjsp` since it doesn't get deployed to the root context, though this can be changed by renaming the file to ROOT.war for convenience.
 
+In my case, the path was `http://payara-micro-test-payara-project.192.168.64.2.nip.io/clusterjsp`. This will likely be the same for you although, if you created multiple named routes, you may find the `payara-micro-test` part of the URL is replaced with something like `web-route` or whatever name you chose.
+
