@@ -23,7 +23,7 @@ So, on the 6th April 2016, [Payara Services Ltd.](https://www.payara.fish/suppor
 After another couple of years building a team I was incredibly proud to be a part of, I felt the time was right to move on. I started at Red Hat in the middle of 2018.
 
 # Work
-I currently work for [Red Hat]https://developers.redhat.com/) and haven't been there long so I'm still carving out my place in the team. I'm still trying to keep involved with [Eclipse MicroProfile](https://microprofile.io), although I'll be using Thorntail now rather than Payara Micro.
+I currently work for [Red Hat](https://developers.redhat.com/) and haven't been there long so I'm still carving out my place in the team. I'm still trying to keep involved with [Eclipse MicroProfile](https://microprofile.io), although I'll be using Thorntail now rather than Payara Micro.
 
 # Personal
 I like sport that I can participate in more than sport that I can watch (with the exception of F1 and sometimes rugby). Pretty much any sport where I can compete against myself appeals to me; running, climbing, snowboarding plus lots of other things I haven't got round to yet. (I'll need to buy a Kayak first).
