@@ -40,3 +40,45 @@ CMD [ "-m", "http.server", "8080" ]
 {% endhighlight %}  
 &nbsp;   
 I used the [Docker image inspection tool Dive](https://github.com/wagoodman/dive) to analyse the image and saw the ID of the layer where the file was added. Viewing the layer from the tarball in `vim` clearly showed the contents of the file.
+
+
+<img />
+
+
+All the experiments I ran can be found in [my GitHub repository](https://github.com/mikecroft/leaky-secrets/tree/main). The reproducer is [in directory `1-leaky`](https://github.com/mikecroft/leaky-secrets/tree/main/1-leaky)
+
+
+## Finding a Solution
+After I'd seen how easy it was to reproduce the problem, I looked for solutions. There is [a standard, OCI-native solution to mounting secrets into a container build](https://docs.podman.io/en/v5.4.0/markdown/podman-build.1.html#secret-id-id-src-envorfile-env-env-type-file-env) but, since the BuildConfig `Docker` strategy wraps the underlying container build process, not all features are exposed to users, including this one. An OpenShift Pipelines build, powered by Tekton, would be a sensible choice here because all the standard build options for whichever build tool is being used would be available - but we want to make sure BuildConfigs can be made secure.
+
+Fortunately, the OpenShift documentation provides exactly the answer I was looking for: [Build Volumes](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/builds_using_buildconfig/build-strategies#builds-using-build-volumes_build-strategies-docker).
+
+Build volumes are very useful not just for keeping sensitive data secret but, since anything mounted this way is not persisted in any layer of the final image, it can keep final image sizes much smaller.
+
+
+{% highlight yaml %}
+spec:
+  dockerStrategy:
+    volumes:
+      - name: secret-mvn
+        mounts:
+        - destinationPath: /opt/app-root/src/.ssh
+        source:
+          type: Secret
+          secret:
+            secretName: my-secret
+{% endhighlight %}  
+&nbsp;  
+
+
+## Exploring Other Options
+Since this wasn't just a 
+
+**Custom Build Strategy**  
+I investigated using the Custom build strategy based on [the overview in the documentation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/builds_using_buildconfig/custom-builds-buildah#custom-builds-buildah)
+
+**Squashing Build Layers**  
+After finding [the `imageOptimizationPolicy: SkipLayers` option](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/builds_using_buildconfig/build-strategies#builds-strategy-docker-squash-layers_build-strategies) , I created a test to run the same Docker strategy build with and without that option. I even included an environment variable pulled in from a secret in the build config.
+
+I pulled and saved both images and found that the secrets were visible in the standard build, but not in the build which had its layers squashed.
+
