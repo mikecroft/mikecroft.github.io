@@ -57,16 +57,24 @@ Build volumes are very useful not just for keeping sensitive data secret but, si
 
 
 {% highlight yaml %}
-spec:
+strategy:
   dockerStrategy:
+    from:
+      kind: ImageStreamTag
+      name: ubi-minimal:9.5
     volumes:
-      - name: secret-mvn
+      - name: secrets
         mounts:
-        - destinationPath: /opt/app-root/src/.ssh
+        - destinationPath: /tmp
         source:
           type: Secret
           secret:
-            secretName: my-secret
+            secretName: build-volumes-secret
+            items:
+              - key: .aws-credentials
+                path: .aws/credentials
+              - key: .env
+                path: .env
 {% endhighlight %}  
 &nbsp;  
 
