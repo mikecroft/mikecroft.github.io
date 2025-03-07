@@ -38,11 +38,11 @@ ENTRYPOINT [ "python" ]
 
 CMD [ "-m", "http.server", "8080" ]
 {% endhighlight %}  
-&nbsp;   
+
 I used the [Docker image inspection tool Dive](https://github.com/wagoodman/dive) to analyse the image and saw the ID of the layer where the file was added. Viewing the layer from the tarball in `vim` clearly showed the contents of the file.
 
 
-<img />
+<!-- <img /> -->
 
 
 All the experiments I ran can be found in [my GitHub repository](https://github.com/mikecroft/leaky-secrets/tree/main). The reproducer is [in directory `1-leaky`](https://github.com/mikecroft/leaky-secrets/tree/main/1-leaky)
@@ -54,7 +54,6 @@ After I'd seen how easy it was to reproduce the problem, I looked for solutions.
 Fortunately, the OpenShift documentation provides exactly the answer I was looking for: [Build Volumes](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/builds_using_buildconfig/build-strategies#builds-using-build-volumes_build-strategies-docker).
 
 Build volumes are very useful not just for keeping sensitive data secret but, since anything mounted this way is not persisted in any layer of the final image, it can keep final image sizes much smaller.
-
 
 {% highlight yaml %}
 strategy:
@@ -77,6 +76,10 @@ strategy:
                 path: .env
 {% endhighlight %}  
 &nbsp;  
+
+
+
+{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}
 
 
 ## Exploring Other Options

@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 110%;
+  font-size: 120%;
 }
 
 h1 { 
@@ -42,7 +42,7 @@ h2#post-title {
 p { margin: 0 0 1.5em 0; }
 
 a         { color: #58e; text-decoration: none; }
-a:visited { color: #888; }
+/* a:visited { color: #888; } */
 a:hover   { color: #000; }
 
 /*****************************************************************************/
@@ -80,7 +80,7 @@ a:hover   { color: #000; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 120%;
   text-align: justify;
   max-width: 50em;
   min-width: 30em;
@@ -162,14 +162,25 @@ ul, ol {
 
 /* standard */
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  /* border: 1px solid #ddd;
+  background-color: #f8f9fa; */
+  background-color: #282828;
+  padding: 1em;
+  margin: 1.5em 0 2em 0;
+  border-radius: var(--bs-border-radius);
+}
+
+.post code.language-plaintext.highlighter-rouge {
+  padding: 0 0.4em 0 0.4em;
+  border-radius: 0.175rem;
+  font-weight: 500;
+  font-size: 90%;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f8f9fa;
   /* Get rid of first-line indentation 
   padding: 0 .2em; 
   */
@@ -177,6 +188,8 @@ ul, ol {
 
 .post pre code {
   border: none;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size: 85%;
 }
 
 /* terminal */
